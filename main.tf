@@ -14,5 +14,3 @@ module "worker" {
   worker_name    = var.worker_name
   d1_database_id = module.d1.database_id
 }
-
-# Pequeño cambio para triggerear terraform
